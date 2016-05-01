@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81679262-0304-4bc2-993a-8b204e8eabb5" name="Default" comment="Modify Index.html">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/WebinarType.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Webinar.html" afterPath="$PROJECT_DIR$/src/Webinar.html" />
+    <list default="true" id="81679262-0304-4bc2-993a-8b204e8eabb5" name="Default" comment="Add Webinar.html">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ComputerInEducation.iws" />
@@ -465,7 +463,13 @@
       <option name="project" value="LOCAL" />
       <updated>1462093230478</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add Webinar.html">
+      <created>1462103557835</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1462103557835</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -512,7 +516,8 @@
     <MESSAGE value="added webinar.html-3" />
     <MESSAGE value="added images" />
     <MESSAGE value="Modify Index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify Index.html" />
+    <MESSAGE value="Add Webinar.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Webinar.html" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
