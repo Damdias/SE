@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81679262-0304-4bc2-993a-8b204e8eabb5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Webinar.html" afterPath="$PROJECT_DIR$/src/Webinar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DistanceLearning.html" afterPath="$PROJECT_DIR$/src/DistanceLearning.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ComputerInEducation.iws" />
@@ -56,10 +56,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Webinar.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Webinar.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Webinar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35150376">
+            <state vertical-scroll-proportion="-26.807692">
               <caret line="137" column="66" selection-start-line="137" selection-start-column="66" selection-end-line="137" selection-end-column="66" />
               <folding>
                 <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -96,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DistanceLearning.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DistanceLearning.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DistanceLearning.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.807693">
-              <caret line="90" column="65" selection-start-line="87" selection-start-column="20" selection-end-line="90" selection-end-column="65" />
+            <state vertical-scroll-proportion="0.4793233">
+              <caret line="90" column="45" selection-start-line="90" selection-start-column="45" selection-end-line="90" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -183,6 +183,7 @@
         <option value="$PROJECT_DIR$/src/WebinarType.html" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/Webinar.html" />
+        <option value="$PROJECT_DIR$/src/DistanceLearning.html" />
       </list>
     </option>
   </component>
@@ -424,7 +425,13 @@
       <option name="project" value="LOCAL" />
       <updated>1462110184346</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Webinar page header adjustment">
+      <created>1462110451162</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1462110451162</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -889,14 +896,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DistanceLearning.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.807693">
-          <caret line="90" column="65" selection-start-line="87" selection-start-column="20" selection-end-line="90" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/WebinarType.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-74.07692">
@@ -915,7 +914,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Webinar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35150376">
+        <state vertical-scroll-proportion="-26.807692">
           <caret line="137" column="66" selection-start-line="137" selection-start-column="66" selection-end-line="137" selection-end-column="66" />
           <folding>
             <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -935,6 +934,14 @@
             <element signature="n#style#0;n#p#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DistanceLearning.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4793233">
+          <caret line="90" column="45" selection-start-line="90" selection-start-column="45" selection-end-line="90" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
