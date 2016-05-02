@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Home</title>
+    <title>Use of Software</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,7 +15,7 @@
     <link href="css/prettyPhoto.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
-
+    <link href="css/style.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -32,6 +32,21 @@
     .lead{
         text-align: left;
     }
+    #header{
+        position: fixed;
+        width: 100%;
+        z-index: 1700;
+        top:0px;
+    }
+    #about-us{
+        margin-top: 110px;
+    }
+    .crumbs {
+        margin-left: -22px;
+    }
+    .sub-Navigation > div{
+        margin-left: 30px;
+    }
 </style>
 </head>
 <body class="homepage">
@@ -40,7 +55,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-xs-4">
-                    <div class="top-number"><p><i class="fa fa-phone-square"></i> +0123 456 70 90</p></div>
+
                 </div>
                 <div class="col-sm-6 col-xs-8">
                     <div class="social">
@@ -86,9 +101,20 @@
             </div>
         </div>
     </nav>
+    <div class="" style="padding-top: 2px;line-height:14px;background-color:gray;">
+        <div class="container">
+        <div id="breadcrumb" >
+            <ul class="crumbs">
+                <li class="first"><a href="index.html" style="z-index:9;"><span></span>Home</a></li>
+                <li><a href="about-us.html" style="z-index:8;">Use of Software</a></li>
+            </ul>
+        </div>
+        </div>
+    </div>
 </header>
 <section id="about-us">
 <div class="container">
+
 <div class="center wow fadeInDown">
     <h2>About Educational Software</h2>
     <p class="lead">Educational software is computer software, the primary purpose of which is teaching or self-learning.
@@ -138,7 +164,7 @@
 
     <div class="row">
 
-        <div class="col-sm-3">
+        <div class="col-sm-4 sub-Navigation">
             <div class="sinlge-skill wow fadeInDown " data-wow-duration="1000ms" data-wow-delay="300ms">
                 <div class="joomla-skill type-circle">
                <a href="courseware.html"><p></p>
@@ -147,7 +173,7 @@
             </div>
         </div>
 
-        <div class="col-sm-3">
+        <div class="col-sm-4 sub-Navigation">
             <div class="sinlge-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                 <div class="html-skill type-circle">
                  <a href="classroomaids.html" ><p></p>
@@ -156,7 +182,7 @@
             </div>
         </div>
 
-        <div class="col-sm-3">
+        <div class="col-sm-4 sub-Navigation">
             <div class="sinlge-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
                 <div class="css-skill type-circle">
                  <a href="assessmentsoftware.html"> <p></p>
@@ -165,14 +191,14 @@
             </div>
         </div>
 
-        <div class="col-sm-3">
+        <!--div class="col-sm-3">
             <div class="sinlge-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms">
                 <div class="wp-skill type-circle">
                    <a href="referencesoftware.html"><p></p>
                     <p>Reference software</p></a>
                 </div>
             </div>
-        </div>
+        </div-->
 
     </div>
 
