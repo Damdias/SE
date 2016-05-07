@@ -93,11 +93,10 @@
 .main{
     /*float: left;*/
     padding-bottom: 16px;
-    /*padding-left: 16px;
-    padding-right: 16px;*/
-    padding-left: 222px;
-    padding-right: 220px;
-    /*padding-top: 16px;*/
+    /*padding-left: 16px;*/
+    padding-right: 16px;
+
+    padding-top: 16px;
 }
 .page-content {
     background-attachment: scroll;
@@ -136,4 +135,16 @@
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 8px;
+}
+#header{
+    position: fixed;
+    width: 100%;
+    z-index: 1700;
+    top:0px;
+}
+#feature{
+    margin-top: 110px;
+}
+.crumbs {
+    margin-left: -22px;
 }
