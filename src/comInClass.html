@@ -26,6 +26,20 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <style type="text/css">
+        #header{
+            position: fixed;
+            width: 100%;
+            z-index: 1700;
+            top:0px;
+        }
+        #feature{
+            margin-top: 140px;
+        }
+        .crumbs {
+            margin-left: -22px;
+        }
+    </style>
 </head>
 <body class="homepage">
 <header id="header">
@@ -67,48 +81,33 @@
                 <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"></a>
             </div>
             <div class="collapse navbar-collapse navbar-right">
-                <!--<ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="about-us.html">About Us</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="fa fa-angle-down"></i></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="blog-item.html">Blog Single</a></li>
-                            <li><a href="pricing.html">Pricing</a></li>
-                            <li><a href="404.html">404</a></li>
-                            <li><a href="shortcodes.html">Shortcodes</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contact-us.html">Contact</a></li>
-                </ul>-->
-                <ul class="nav navbar-nav">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="DistanceLearning.html">Distance Learning</a></li>
-                    <li><a href="about-us.html">Use of Software</a></li>
-                    <li><a href="Webinar.html">Webinar</a></li>
-                    <li  class="active"><a href="comInClass.html">Computers in Classroom</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contact-us.html">Contact</a></li>
+                 <ul class="nav navbar-nav">
+                     <li ><a href="index.html">Home</a></li>
+                     <li><a href="DistanceLearning.html">Distance Learning</a></li>
+                     <li><a href="Webinar.html">Webinar</a></li>
+                     <li><a href="useofsoftware.html">Use of Software</a></li>
+                     <li  class="active"><a href="comInClass.html">Computers in Classroom</a></li>
+                     <li><a href="contactus.html">Contact Us</a></li>
                 </ul>
             </div>
         </div>
     </nav>
+    <div style="padding-top: 2px;line-height:14px;background-color:gray;">
+        <div class="container">
+        <div id="breadcrumb" >
+            <ul class="crumbs">
+                <li class="first"><a href="index.html" style="z-index:9;"><span></span>Home</a></li>
+                <li><a href="comInClass.html" style="z-index:8;">Computers in Classroom</a></li>
+            </ul>
+        </div>
+            </div>
+   </div>
 </header>
-<section id="" style="padding-top: 1px;padding-bottom: 30px;background-color:gray;">
-    <div id="breadcrumb" style="padding-left:195px;">
-        <ul class="crumbs">
-            <li class="first"><a href="index.html" style="z-index:9;"><span></span>Home</a></li>
-            <li><a href="comInClass.html" style="z-index:8;">Computers in Classroom</a></li>
-        </ul>
-    </div>
-</section>
+
 <section id="feature" style="padding-top:40px;">
     <div class="container">
         <div class="center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
-            <h2>Computer In Classroom</h2>
+            <h2>Computers In Classroom</h2>
             <div style="margin-bottom:1px;" align="justify">
                 <p class="lead" >
                     Computers in the classroom include any digital technology used to enhance, supplement, or replace a traditional educational curriculum. As computers have become more accessible, inexpensive, and powerful, the demand for this technology has increased, leading to more frequent use of computer resources within classes, and a decrease in the student-to-computer ratio within schools.
@@ -140,7 +139,7 @@
                         <!--<p class="pull-left" style="margin-bottom:1px;font-size:smaller;margin-top:-9px;">[Reference: <a target="_blank" href="https://en.wikipedia.org/wiki/Blended_learning">Blended Learning</a>]</p>-->
                         <br/>
                         <ul class="clearfix" style="padding-left:0px;padding-top:1px">
-                            <a class="more" href="comHistory.html">Read More</a>
+                            <a class="btn btn-primary readmore" href="comHistory.html">Read More</a>
                         </ul>
                     </div>
                 </div>
@@ -151,7 +150,7 @@
                                 <img src="img/comInClass/present.png" class="img-responsive">
                             </div>
                         </a>
-                        <h2>Present Classrooms</h2>
+                        <h2>Present day Classrooms</h2>
                         <p class="lead" align="justify">Computer use in the modern era, is almost second nature to students.
 
                             Even young children are adapt at using a computer.
@@ -159,7 +158,7 @@
                         <!--<p class="pull-left" style="margin-bottom:1px;font-size:smaller;margin-top:-9px;">[Reference: <a target="_blank" href="https://en.wikiversity.org/wiki/E-Learning">E-Learning</a>]</p>-->
                         <br/>
                         <ul class="clearfix" style="padding-left:0px;">
-                            <a class="more" href="comPresent.html">Read More</a>
+                            <a class="btn btn-primary readmore" href="comPresent.html">Read More</a>
                         </ul>
                     </div>
                 </div>
@@ -175,7 +174,7 @@
                         <!--<p class="pull-left" style="margin-bottom:1px;font-size:smaller;margin-top:-9px;">[Reference: <a target="_blank" href="https://en.wikipedia.org/wiki/Virtual_learning_environment">Virtual Learning</a>]</p>-->
                         <br/>
                         <ul class="clearfix" style="padding-left:0px;padding-top:2px;">
-                            <a class="more" href="comA&D.html">Read More</a>
+                            <a class="btn btn-primary readmore" href="comA&D.html">Read More</a>
                         </ul>
                     </div>
                 </div>
@@ -187,14 +186,14 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
-                &copy; 2013 <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">ShapeBootstrap</a>. All Rights Reserved.
+                &copy; 2016 <a target="_blank" href="index.html" title="Computer In Education">Computer In Education</a>. All Rights Reserved.
             </div>
             <div class="col-sm-6">
                 <ul class="pull-right">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Faq</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <!--<li><a href="#">About Us</a></li>
+                    <li><a href="#">Faq</a></li>-->
+                    <li><a href="contactus.html">Contact Us</a></li>
                 </ul>
             </div>
         </div>
