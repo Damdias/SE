@@ -132,23 +132,16 @@
                 Or please fill in the form below. We will get back as soon as we can.</p>
             <div lang="en-US" dir="ltr" id="wpcf7-f17-p18-o1" class="" role="form">
                 <div class="screen-reader-response"></div>
-                <form novalidate="novalidate" class="" method="post" action="/contact-us/#wpcf7-f17-p18-o1">
-                    <div style="display: none;">
-                        <input type="hidden" value="17" name="_wpcf7">
-                        <input type="hidden" value="4.4.1" name="_wpcf7_version">
-                        <input type="hidden" value="en_US" name="_wpcf7_locale">
-                        <input type="hidden" value="wpcf7-f17-p18-o1" name="_wpcf7_unit_tag">
-                        <input type="hidden" value="7d0c2e839c" name="_wpnonce">
-                    </div>
+                <form action="" onsubmit="myFunction()">
                     <p>Your Name (required)<br>
-                        <span class=""><input type="text" aria-invalid="false" aria-required="true" class="" size="40" value="" name="your-name"></span> </p>
+                        <span class=""><input type="text" aria-invalid="false" aria-required="true" class="" size="40" value="" name="your-name" required></span> </p>
                     <p>Your Email (required)<br>
-                        <span class=""><input type="email" aria-invalid="false" aria-required="true" class="" size="40" value="" name="your-email"></span> </p>
-                    <p>Your Message<br>
-                        <span class=""><textarea aria-invalid="false" class="" rows="10" cols="40" name="your-message"></textarea></span> </p>
-                    <div  class="button-email" style="">
-                        <a href="#" class="" style="color: rgb(255, 255, 255);">Send</a>
-                    </div>
+                        <span class=""><input type="email" aria-invalid="false" aria-required="true" class="" size="40" value="" name="your-email" required></span> </p>
+                    <p>Your Message (required)<br>
+                        <span class=""><textarea aria-invalid="false" class="" rows="10" cols="40" name="your-message" required></textarea></span> </p>
+                    <p>
+                        <input type="submit" value="Submit" class="button-email">
+                    </p>
                 </form>
             </div>
         </div>
@@ -173,5 +166,10 @@
         </div>
     </div>
 </footer>
+<script>
+    function myFunction() {
+        alert("Your message sent successfully");
+    }
+</script>
 </body>
 </html>
